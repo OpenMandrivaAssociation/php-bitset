@@ -10,6 +10,7 @@ Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/bitset/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
+Patch0:		bitset-1.0-php54x.diff
 BuildRequires:	php-devel >= 3:5.2.0
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -20,6 +21,8 @@ Sets of bits manipuliting library.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv -f ../package*.xml .
+
+%patch0 -p0
 
 # lib64 fixes
 perl -pi -e "s|/lib\b|/%{_lib}|g" config.m4
