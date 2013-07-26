@@ -4,12 +4,12 @@
 
 Summary:	BITSET library
 Name:		php-%{modname}
-Version:	1.0.1
-Release:	%mkrel 1
+Version:	2.0
+Release:	1
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/bitset/
-Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
+Source0:	http://pecl.php.net/get/bitset-%{version}.tgz
 BuildRequires:	php-devel >= 3:5.2.0
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -156,3 +156,4 @@ rm -rf %{buildroot}
 
 * Tue Oct 28 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2009.0
 - initial Mandriva package
+

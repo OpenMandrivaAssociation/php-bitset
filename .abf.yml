@@ -1,2 +1,4 @@
+removed_sources:
+  bitset-1.0.1.tgz: e9fb46f567dc1818d3f5043b902332aa03383971
 sources:
-  "bitset-1.0.1.tgz": e9fb46f567dc1818d3f5043b902332aa03383971
+  bitset-2.0.tgz: f88130d43081499391aca8ef131e17a73c21c9dc
