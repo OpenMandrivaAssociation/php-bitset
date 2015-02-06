@@ -5,7 +5,7 @@
 Summary:	BITSET library
 Name:		php-%{modname}
 Version:	2.0
-Release:	1
+Release:	2
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/bitset/
