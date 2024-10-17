@@ -8,7 +8,7 @@ Version:	2.0
 Release:	2
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/bitset/
+URL:		https://pecl.php.net/package/bitset/
 Source0:	http://pecl.php.net/get/bitset-%{version}.tgz
 BuildRequires:	php-devel >= 3:5.2.0
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
